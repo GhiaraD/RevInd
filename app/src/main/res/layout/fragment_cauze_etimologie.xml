@@ -1,0 +1,101 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="40dp"
+        android:background="@drawable/fundal_style">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Etimologie"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Prima utilizare înregistrată a termenului de Revoluție Industrială pare să fi fost într-o scrisoare din 6 iulie 1799 scrisă de Louis-Guillame Otto, anunțând că Franța a intrat în cursa industrializării."/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/louisguillameotto"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#777777"
+                android:layout_marginBottom="10dp"
+                android:text="Louis-Guillaume Otto"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Termenul de Revoluție Industrială aplicat schimbării tehnologice a devenit mai cunoscut după anii 1830, conform descrierii lui Jerome-Adoplhe Blanqui din 1837: La Revolution Industrielle. Alți istorici au susținut că schimbările economice și sociale s-au petrecut treptat și termenul de revoluție este intepretat greșit. Acesta încă este un subiect de dezbatere între unii istorici."/>
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Am terminat!"
+                android:background="@drawable/btn_style_neatins_1"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/ButonCauzeEtimologie"
+                android:padding="30dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "19519914581",
+    "firebase_url": "https://revolutia-industriala.firebaseio.com",
+    "project_id": "revolutia-industriala",
+    "storage_bucket": "revolutia-industriala.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19519914581:android:bde26a04a8b4ce03",
+        "android_client_info": {
+          "package_name": "com.example.danizeul.revind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19519914581-5blgmjlfjoei712pqp0717kdf5eb9kbl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.danizeul.revind",
+            "certificate_hash": "c62afd8af7bfd1c89c110191e0617c7b751d07db"
+          }
+        },
+        {
+          "client_id": "19519914581-cnb3sq4o0ok9fr16a1dcci5pdl6gdisp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcAYiVwCPDVV8FLGoryfSMUPoLdKj7EEU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19519914581-cnb3sq4o0ok9fr16a1dcci5pdl6gdisp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,139 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="40dp"
+        android:background="@drawable/fundal_style">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Industria aburului"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Îmbunătățirile aduse motorului cu aburi sunt considerate unele din cele mai importante tehnologii ale Revoluției Industriale chiar dacă aburul nu a depășit puterea apei ca importanță în Anglia decât după Revoluția Industrială. Până în 1800 Anglia era alimentată cu doar 10.000CP de la abur. În 1815, puterea aburului ajungea la 210.000CP."/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/motornewcomen"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#777777"
+                android:layout_marginBottom="10dp"
+                android:text="Primul motor cu aburi performant, inventat de Thomas Newcomen"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Motorul atmosferic sau motorul Newcomen a fost inventat de Thomas Newcomen în 1712. Motorul era operat de abur condensat retras în cilindru, creând astfel un vid parțial care permitea presiunii atmosferice să apese pistonul în cilindru. A fost primul dispozitiv practic care valorifica aburul pentru a produce lucru mecanic.
+"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="O schimbare fundamentală în principiile de baza a fost adusă de James Watt. În colaborare cu Matthew Boulton, a reușit în anul 1778 să își perfecționeze motorul cu aburi care a incorporat o serie de îmbunătățiri radicale care au crescut eficiența motoarelor, economisind 75% din costurile de cărbune.Watt a transformat motorul cu aburi dintr-o mișcare reciprocă pentru pompare într-una rotativă potrivită pentru aplicații industriale."/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/motoraburjameswatt"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="#777777"
+                android:layout_marginBottom="10dp"
+                android:text="Motorul cu aburi inventat de James Watt"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Până în 1800, compania 'Boulton and Watt' construise 496 de motoare care estimau să producă aproximativ 11.200CP. Aceasta încă era o mică parte din puterea totală generată în Marea Britanie de roțile de apă (120.000CP) și morile de vânt (15.000CP). Cu toate acestea, apa și vântul depindeau de anotimp în timp ce motoarele erau constante."/>
+
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Am terminat!"
+                android:background="@drawable/btn_style_neatins_1"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/ButonDescopeririAbur"
+                android:padding="30dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

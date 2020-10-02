@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RevInd</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis erat, efficitur sollicitudin convallis eu, sagittis id turpis. Vestibulum tellus lorem, finibus vitae libero tincidunt, iaculis semper tortor. Phasellus dapibus neque est, ac vulputate ligula imperdiet pretium. Cras consectetur metus leo, a dignissim enim fermentum at. Duis sed ligula tincidunt, pellentesque risus et, volutpat quam. Donec ullamcorper bibendum ex porttitor porttitor. Nulla condimentum aliquam cursus. Ut interdum ultrices rutrum. Quisque in libero sollicitudin, dignissim nibh vitae, molestie ipsum. In rutrum, metus et rutrum fermentum, eros tortor aliquet metus,</string>
+    <string name="lorem1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis erat, efficitur sollicitudin convallis eu, sagittis id turpis. Vestibulum tellus lorem, finibus vitae libero tincidunt, iaculis semper tortor. Phasellus dapibus neque est, ac vulputate ligula imperdiet pretium. Cras consectetur metus leo, a dignissim enim fermentum at. Duis sed ligula tincidunt, pellentesque risus et, volutpat quam. Donec ullamcorper bibendum ex porttitor porttitor.</string>
+    <string name="lorem2">Nulla condimentum aliquam cursus. Ut interdum ultrices rutrum. Quisque in libero sollicitudin, dignissim nibh vitae, molestie ipsum. In rutrum, metus et rutrum fermentum, eros tortor aliquet metus, vitae pellentesque nisi odio pulvinar dui. Suspendisse a odio eu erat dictum porta non non lorem. Praesent vitae ultricies eros. Nunc egestas, quam vel varius scelerisque, lacus diam fermentum sem, et luctus metus nisl dictum ligula.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

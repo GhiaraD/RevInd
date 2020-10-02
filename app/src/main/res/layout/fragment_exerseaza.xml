@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="40dp"
+        android:background="@drawable/fundal_style"
+        android:id="@+id/ExerseazaFundal">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ExerseazaScor"
+            android:textColor="#FFFFFF"
+            android:text="Scor: "
+            android:textSize="25dp"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:text="Intrebare ?"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="#000000"
+                android:id="@+id/IntrebareText"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_style_neatins_1"
+                    android:id="@+id/Varianta1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:text="Varianta1"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="5dp"
+                        android:id="@+id/Varianta1Text"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_style_neatins_1"
+                    android:id="@+id/Varianta2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:text="Varianta2"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="5dp"
+                        android:id="@+id/Varianta2Text"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_style_neatins_1"
+                    android:id="@+id/Varianta3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:text="Varianta3"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="5dp"
+                        android:id="@+id/Varianta3Text"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_style_neatins_1"
+                    android:id="@+id/Varianta4">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:text="Varianta4"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="5dp"
+                        android:id="@+id/Varianta4Text"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+</LinearLayout>

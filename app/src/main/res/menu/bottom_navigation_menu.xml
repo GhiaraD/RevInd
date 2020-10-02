@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_navigation_invata"
+        android:icon="@drawable/siuu"
+        android:title="Învață"
+
+        />
+
+    <item
+        android:id="@+id/bottom_navigation_exerseaza"
+        android:icon="@drawable/siuuu"
+        android:title="Exersează" />
+
+    <item
+        android:id="@+id/bottom_navigation_maimult"
+        android:icon="@drawable/siuuuu"
+        android:title="Despre" />
+
+</menu>

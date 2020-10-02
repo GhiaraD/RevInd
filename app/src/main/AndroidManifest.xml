@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.danizeul.revind">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconpos"
+        android:label="Prima Revoluție Industrială"
+        android:roundIcon="@drawable/iconpos"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".GlobalProgressClass">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
