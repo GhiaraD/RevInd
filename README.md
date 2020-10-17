@@ -1,2 +1,2 @@
 # RevInd
-Aplicatie adnroid pentru a invata despre revolutia industriala
+Aplicatie android pentru a invata despre revolutia industriala
